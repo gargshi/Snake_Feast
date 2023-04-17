@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+
+#score_banner{
+	font-family: 'Orbitron', sans-serif;;
+	font-size : 25px;
+	margin-left: 2vw;
+	border: 10px solid rgb(0, 0, 0);
+	padding-right: 50px;
+	background-color: white;
+	height: 25vh;
+	width: 20vw;
+	text-align: justify;
+	display: block;
+	position:absolute;
+}
+
+#status_msg{
+	font-family: 'Orbitron', sans-serif;
+	/* font-size : 25px; */
+	padding-left: 50px;
+	background-color: white;
+
+}
+
+#hsco{
+	padding-left: 50px;
+	background-color: white;
+}
+
+.canvas{
+	background-color: rgb(91, 91, 91);
+	min-height: 50vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.board{
+	/* background: linear-gradient(rgba(86, 60, 213, 0.43),rgba(25, 37, 206, 0.595)); */
+	background-color: rgb(112, 24, 220);
+	width: 90vmin;
+	height: 90vmin;
+	border: 20px solid rgb(53, 53, 53);
+	border-radius: 20px;
+	display: grid;
+	/* grid-template-rows: repeat(20, 1fr);
+	grid-template-columns: repeat(20, 1fr); */
+}
+
+.head{
+	background-color: rgb(255, 255, 255);
+	border:1px solid black;
+}
+
+.snake{
+	background: linear-gradient(rgb(0, 0, 0),rgb(78, 78, 62));
+}
+
+.food{
+	background-color: rgb(222, 246, 5);
+}
